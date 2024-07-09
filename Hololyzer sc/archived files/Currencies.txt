@@ -1,0 +1,65 @@
+~ European
+EUR
+GBP
+SEK
+NOK
+CHF
+ISK
+DKK
+PLN
+CZK
+HUF
+RON
+BGN
+BYN
+RUB
+HRK
+RSD
+
+~ Western
+USD
+CAD
+AUD
+NZD
+ZAR
+
+
+~ Asian
+YEN
+TWD
+HKD
+SGD
+KRW
+INR
+
+~ SouthEast Asian
+PHP
+IDR
+MYR
+THB
+VND
+
+~ South American
+CLP
+MXN
+BRL
+ARS
+PEN
+GTQ
+CRC
+UYU
+HNL
+COP
+BOB
+
+~ Middle Eastern
+SAR
+ILS
+TRY
+AED
+QAR
+EGP
+
+~ Others
+NGN
+
