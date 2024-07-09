@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-#example: python3 process.py "2024-5"
-#takes html files and strips relevant data. Copies to processed folder if option selected
 import html2text
 import sys
 import os
@@ -25,6 +23,9 @@ pname = join("raw","html", folder)
 # Paths
 workingdirectory = os.path.dirname(os.path.realpath(__file__))
 up1directory = os.path.dirname(workingdirectory)
+datapath = join(up1directory, "data")
+if not os.path.exists(datapath):
+    os.makedirs(datapath)
 
 # Reading and interpreting HTML files
 fullarray = []; currencylist= []
@@ -158,7 +159,6 @@ df[headers] = df["r1"].str.split("\t", expand = True)
 df.drop('r1', axis=1, inplace=True)
 dfpath = join(up1directory, xname)
 df.to_csv(dfpath, index=False)  
-
 
 
 
